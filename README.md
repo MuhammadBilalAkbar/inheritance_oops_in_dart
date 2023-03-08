@@ -9,7 +9,7 @@ There are three types of
 - Properties of class are instance or field variables.
 - Constructor of class is method. Its name is same as class name and it is default constructor.
   When object is created, constructor is called automatically.
-  <br/>If a sub class is extending from super class then default constructor of base-class or
+- If a sub class is extending from super class then default constructor of base-class or
   super-class or parent-class is also
   called in constructor of sub-class or child-class automatically.
 
