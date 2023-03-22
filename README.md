@@ -1,6 +1,6 @@
 ﻿## 1. Research: Inheritance (OOPS in Dart)
 
-- Keywords:+
+- Keywords:
     - _[Add here a list of important keywords about the topic]_
     - ...
 - Video Title: _[Add here a short, interesting and descriptive title for the video that contains high ranking keywords]_
