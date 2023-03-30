@@ -6,7 +6,7 @@ void main() {
 
 class Animal extends Object {
   // All common properties of Animals. Animal class is super-class, base-class or parent-class.
-  // Dog and Cat are child-class or sub-class of Animal. All the classes in dart inherit from the common class of object.
+  // Dog and Cat are child-class or sub-class of Animal. All the classes in dart automatically inherit from object SuperClass.
   String color = 'White';
 
   void eat() => print('All animals eat food');

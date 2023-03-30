@@ -3,26 +3,26 @@
 
 void main() {
   // Class B and class C both can access class A because both classes are extending class A.
-  final objectOfClassB = B();
-  objectOfClassB.display_a();
-  final objectOfClassC = C();
-  objectOfClassC.display_a();
+  final objOfB = B();
+  objOfB.displayA();
+  final objOfC = C();
+  objOfC.displayA();
 }
 
 class A {
   int a = 10;
 
-  void display_a() => print(a);
+  void displayA() => print(a);
 }
 
 class B extends A {
   int b = 20;
 
-  void display_b() => print(b);
+  void displayB() => print(b);
 }
 
 class C extends A {
   int c = 30;
 
-  void display_c() => print(c);
+  void displayC() => print(c);
 }
